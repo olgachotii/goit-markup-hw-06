@@ -456,7 +456,9 @@
         <form class="footer-form">
           <h3 class="title">Подпишитесь на рассылку</h3>
           <div class="wrapper">
-            <input type="email" name="" id="" placeholder="E-mail" class="email" />
+            <label>
+              <input type="email" name="" id="" placeholder="E-mail" class="email" />
+            </label>
 
             <button class="footer-form-button" type="submit">
               Подписаться
@@ -510,10 +512,16 @@
             </svg>
           </div>
 
-          <label for="coment" class="modal-form-field">Комментарий</label>
-          <textarea class="modal-form-coment" name="coment" placeholder="Введите текст"></textarea>
+          <label class="modal-form-textarea"
+            >Комментарий
+            <textarea
+              class="modal-form-coment"
+              name="coment"
+              placeholder="Введите текст"
+            ></textarea>
+          </label>
 
-          <label for="policy" class="modal-chack-policy">
+          <label class="modal-chack-policy">
             <input type="checkbox" name="policy" id="policy" required class="checkbox" />
             <svg width="16" height="15" class="checkbox-icon">
               <use href="./images/icons.svg#icon-checkbox"></use>

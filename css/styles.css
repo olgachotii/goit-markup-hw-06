@@ -784,11 +784,15 @@ ul {
 }
 
 .modal-form-coment {
-  padding-top: 12px;
-  padding-left: 16px;
-  margin-bottom: 20px;
+  display: block;
+  padding: 12px 16px;
+  margin-top: 4px;
   height: 120px;
   resize: none;
+}
+
+.modal-form-textarea {
+  margin-bottom: 20px;
 }
 
 .modal-form-coment::placeholder {
