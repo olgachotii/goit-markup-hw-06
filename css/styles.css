@@ -661,6 +661,7 @@ ul {
   margin-left: 12px;
   display: flex;
   align-items: center;
+  padding: 10px 29px;
 }
 
 .footer-form-button .icon {
